@@ -115,3 +115,4 @@ $output = eForm($modx,array_merge($_params,$params));
 
 # Return
 return $output;
+?>

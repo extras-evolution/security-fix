@@ -73,8 +73,8 @@ function eForm($modx,$params) {
 	if( $isDebug ) $debugText .= $_lang['ef_debug_warning'];
 
 	//check version differences
-	if( $version != $fileVersion )
-		return formMerge($_lang['ef_version_error'], array('version' => $version, 'fileVersion' => $fileVersion));
+//	if( $version != $fileVersion )
+//		return formMerge($_lang['ef_version_error'], array('version' => $version, 'fileVersion' => $fileVersion));
 
 	// check for valid form key - moved to below fetching form template to allow id coming from form template
 
